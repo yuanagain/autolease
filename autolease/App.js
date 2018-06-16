@@ -26,11 +26,12 @@ import {
  TODO: Insert your API key below
  */
 var sharedProps = {
-  apiKey: "D8F1EF27-BC29-4FC5-B140-51B327682A83",
+  apiKey: "C6167154-4255-425B-ABC5-7C3586B8EC36",
 }
 
 // Sets the default scene you want for AR and VR
-var InitialARScene = require('./js/HelloWorldSceneAR');
+// var InitialARScene = require('./js/HelloWorldSceneAR');
+var InitialARScene = require('./js/PortalScene');
 var InitialVRScene = require('./js/HelloWorldScene');
 
 var UNSET = "UNSET";
